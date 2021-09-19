@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'IranSans';
+  src: local('IranSans'), url(./fonts/5c53f1a72f61b5b51e2ea79a22ebc38b.ttf) format('truetype');
+}
+
+* {
+  font-family: 'IranSans';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f8fa;
+}
+
+.App {
+  position: absolute;
+  display: table;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+
+.search-btn {
+  background-color: #bf9b30 !important;
+  color: #fff !important;
+  transition: 0.6s;
+  border: none;
+  border-radius: 15px;
+  margin-left: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.search-btn:hover {
+  border-color: #fff !important;
+  transform: translate(0, -3px);
+  transition: 0.9s;
+  outline: none !important;
+}
+
+.inputNumber {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px;
+  height: 30px;
+  width: 300px;
+  border: 1px solid #908686;
+  text-align: center;
+}
+
+.inputNumber :focus {
+  border: none;
+  outline: none;
+}
